@@ -26,8 +26,8 @@ function Stopwatch(){
             </div>
             <div className='controls'>
                 <button className='start-button' onClick={start}>Start</button>
-                <button className='stop-button'>Stop</button>
-                <button className='reset-button'>Reset</button>
+                <button className='stop-button' onClick={stop}>Stop</button>
+                <button className='reset-button' onClick={reset}>Reset</button>
             </div>
             
         </div>
